@@ -21,14 +21,6 @@ Modular Drivers: Separate files for sensor, LED, and buzzer
 
 Configurable Threshold: Alarm temperature set in variable.c
 
-🗂 Project Structure
-ESP32_Temp_Project/
-├── main.c              # Main application loop
-├── temp.c / temp.h     # MCP9600 driver (I2C)
-├── buzzer.c / buzzer.h # Buzzer driver
-├── led.c / led.h       # RGB LED driver
-├── variable.c          # Global variables and thresholds
-├── README.md           # Project documentation
 
 
 Design Principles:
